@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.first-image{
+    line-height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: ;
+    
+}
+ul{
+    display: block;
+    
+    line-height: 60px;
+    margin-left:100px
+
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.demo{ 
+    margin-left: 200px;
+    line-height: 60px;
+}
+
+.start{
+    margin-left: 10px;
+    width: 170px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #0e0a47;
+    color: white;
+
+}
+#check{
+    float: right;
+    display:none ;
+    
+}
+.done{
+    float: right;
+    color: blue;
+    line-height: 50px;
+    font-size: large;
+    
+    display: none;
+}
+.contain{
+    display: grid;grid-template-columns: 40% 60%;
+    border: 2px solid none;
+    background-color: #f2f4ff;
+    
+}
+.item{
+    border: 2px solid none;
+}
+
+
+.header{
+    max-width: 100%;
+    width: 600px;
+}
+
+.item :nth-child(1){
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.smart{
+    padding-left: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.an{
+    padding-left: 40px;
+
+}
+.re{
+    border: 2px solid  white;
+    margin-left: 50px;
+    background-color: white;
+}
+.for{
+    margin-right: 60px;
+    background-color: #0e0a47;
+    color: aliceblue;
+}
+.box{
+    border: 2px solid none;
+}
+.rome{
+    text-align: center;
+    font-size: 40px;
+    padding: 80px;
+}
+.ro{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.more{
+    text-align: center;
+    
+}
+.another-container{
+    border: 2px solid none;
+    display: grid; grid-template-columns: 40% 60%;
+}
+.a{
+    max-width: 100%;
+    width: 500px;
+
+}
+.mark{
+    border: 2px solid white;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 70px;
+    
+}
+.stuff :nth-child(2){
+    margin-top: 10px;
+    
+}
+.another{
+    border: 2px solid none;
+    background-color: #e5ebfb;
+}
+.solve{
+    display: grid;grid-template-columns: 40% 60%;
+}
+.our{
+    padding: 30px;
+}
+.your{
+    padding: 20px;
+    font-size: 30px;
+}
+.us{
+    padding: 60px;
+}
+.ma{
+    display: grid; grid-template-columns: 30% 30% 30%;
+}
+.{
+    width: 100px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 478px){
+    .first-image{
+        line-height: 60px;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: ;
+        
+    }
+    ul{
+        display: block;
+        
+        line-height: 60px;
+        margin-left:200px
+    
+    }
+    .demo{ 
+        margin-left: 200px;
+        line-height: 60px;
+        display: none;
+    }
+    .start{
+        margin-left: 10px;
+        width: 170px;
+        height: 30px;
+        margin-top: 15px;
+        background-color: #0e0a47;
+        color: white;
+        display: none;
+    
+    }
+    .contain{display: grid;
+        grid-template-columns: 100%;
+        
+
+
+        border: 2px solid none;
+        
+    }
+    .item{
+        border: 2px solid none;
+    }
+    
+.another-container{
+    border: 2px solid none;
+    display: grid; grid-template-columns:  100%;
+}
+
+}
