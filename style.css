@@ -225,5 +225,12 @@ li{
     border: 2px solid none;
     display: grid; grid-template-columns:  100%;
 }
+.header{
+    display: block;
+    margin-right: 50px;
+}
+.mark{
+    margin-left: 0px;
+}
 
 }
